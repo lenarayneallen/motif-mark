@@ -300,7 +300,8 @@ class DrawingMaterials():
         surface.write_to_png(f"{outfilename}.png")
 
 
-    
+
+#WORKING WITH INPUT FILES ----------------------------------------    
 
 #create InputFile object for FASTA file
 input_file_fasta = InputFile(f)
@@ -331,6 +332,9 @@ for s_obj in sequenceobjects:
     s_obj.get_introns()
     #find motifs
     s_obj.find_motifs(motifobjects)
+
+
+#DRAWING OUTPUT FIGURE ----------------------------------------
 
 #use list of processed sequence objects as input to create an object of class DrawingMaterials
 drawingstuff = DrawingMaterials(sequenceobjects)

@@ -29,9 +29,9 @@ The Motifs file should be a txt file with one motif per line. Motifs are assumed
 
 For motifs containing uracil, al "U"s will be converted to "T"s. 
 
-Motifs containing the ambiguous nucleotides W, S, M, K, R, Y, B, D, H, V, and N are acceptable and will be properly interpreted.  
+Motifs containing the [ambiguous nucleotides](https://en.wikipedia.org/wiki/Nucleic_acid_notation) W, S, M, K, R, Y, B, D, H, V, and N are acceptable and will be properly interpreted.  
 
-## Running the script:
+## Usage:
 ```bash
 #general usage
 
@@ -44,13 +44,10 @@ Motifs containing the ambiguous nucleotides W, S, M, K, R, Y, B, D, H, V, and N 
 
 ### Classes: 
 - InputFile
-
 - Sequence
 - Motif
 - Exon
 - DrawingMaterials
-
-
 
 ### Pycario
 
