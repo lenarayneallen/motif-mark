@@ -34,7 +34,6 @@ Motifs containing the [ambiguous nucleotides](https://en.wikipedia.org/wiki/Nucl
 ## Usage:
 ```bash
 #general usage
-
 ./motif-mark-oop.py -m <motif_file.txt> -f <fasta_file.txt>
 
 #to run with test files in this repository
